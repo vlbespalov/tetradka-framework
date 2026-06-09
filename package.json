@@ -1,0 +1,35 @@
+{
+  "name": "@tetradka/framework",
+  "version": "0.1.0",
+  "description": "Express/TypeORM/Redis mini-framework for tetradka projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cron-parser": "^5.5.0",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.0",
+    "jsonwebtoken": "^9.0.3",
+    "node-pg-migrate": "^8.0.4",
+    "pg": "^8.21.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^1.0.0",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.9.1",
+    "@types/pg": "^8.20.0",
+    "typescript": "^6.0.3"
+  }
+}
